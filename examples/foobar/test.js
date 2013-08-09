@@ -1,6 +1,7 @@
 'use strict';
 
 var proxyquire = require('proxyquireify')(require);
+var jquery = require('jquery');
 
 var stubs = { 
   './bar': { 

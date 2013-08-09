@@ -6,9 +6,11 @@
     "test": "node build && opener index.html"
   },
   "dependencies": {
-    "browserify": "~2.10.0",
+    "browserify": "~2.26.0",
     "opener": "~1.3.0",
-    "proxyquireify": "~0.2.0"
+    "proxyquireify": "~0.2.0",
+    "mold-source-map": "~0.2.0",
+    "jquery-browserify": "~1.8.1"
   },
   "devDependencies": {},
   "keywords": [],
@@ -20,5 +22,8 @@
   "license": "MIT",
   "engine": {
     "node": ">=0.6"
+  },
+  "browser": {
+    "jquery": "jquery-browserify"
   }
 }
